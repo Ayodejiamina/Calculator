@@ -15,9 +15,9 @@ function cleardisplay(){
     document.getElementById("result").value = ''
 }
 
-// function operator1(){
-//     document.getElementById("result").value += <i class="fas fa-power-off text" style="color: red;"></i>
-// }
+function operator1(){
+    let input= document.getElementById("result");
+}
 
 function number4(){
     document.getElementById("result").value += '4'
@@ -44,13 +44,15 @@ function operator2(){
     document.getElementById("result").value += '*'
 }
 function operator3(){
-    document.getElementById("result").value += '('
+    document.getElementById("result").value += '()'
 }
 function operator4(){
-    document.getElementById("result").value += '_'
+    document.getElementById("result").value += '-'
 }
 function operator5(){
-    document.getElementById("result").value += ')'
+    let input = document.getElementById("result")
+   
+    input.value = input.value.slice(0,-1)  
 }
 function operator6(){
     document.getElementById("result").value += '.'
