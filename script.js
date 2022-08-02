@@ -16,8 +16,9 @@ function cleardisplay(){
 }
 
 function operator1(){
-    let input= document.getElementById("result");
+    document.getElementById("result").value = ')'
 }
+
 
 function number4(){
     document.getElementById("result").value += '4'
@@ -44,7 +45,7 @@ function operator2(){
     document.getElementById("result").value += '*'
 }
 function operator3(){
-    document.getElementById("result").value += '()'
+    document.getElementById("result").value += '('
 }
 function operator4(){
     document.getElementById("result").value += '-'
