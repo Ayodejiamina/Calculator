@@ -16,7 +16,7 @@ function cleardisplay(){
 }
 
 function operator1(){
-    document.getElementById("result").value = ')'
+    document.getElementById("result").value += ')'
 }
 
 
